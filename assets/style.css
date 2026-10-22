@@ -1,0 +1,301 @@
+
+/* register page style */
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f5f3;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+.register-form {
+    background: white;
+    max-width: 380px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #00000012;
+}
+
+.register-form h2 {
+    text-align: center;
+    color: #245c45;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.register-form label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #333;
+}
+
+.register-form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 11px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.register-form input:focus {
+    outline: none;
+    border-color: #287653;
+}
+
+.register-form button {
+    width: 100%;
+    padding: 12px;
+    background: #287653;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.register-form button:hover {
+    background: #1d593e;
+}
+
+
+.error-messages {
+    background: #fdecec;
+    color: #b42318;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.error-messages p {
+    margin: 5px 0;
+}
+
+
+/* Login Page */
+.container {
+    width: 350px;
+    margin: 80px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+    color: #2563eb;
+    margin-bottom: 25px;
+}
+
+.container label {
+    display: block;
+    margin-bottom: 7px;
+    color: #333;
+    font-weight: 600;
+}
+
+.container input {
+    width: 100%;
+    padding: 11px;
+    margin-bottom: 18px;
+    border: 1px solid #d1d5db;
+    border-radius: 7px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.container input:focus {
+    border-color: #2563eb;
+}
+
+.container button {
+    width: 100%;
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background: #1d4ed8;
+}
+
+.container p {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+}
+
+.container a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+
+/* Users Table */
+.container table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 25px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(15, 23, 42, 0.07);
+}
+
+
+.container thead {
+    background: #172554;
+    color: white;
+}
+
+.container th {
+    padding: 16px 12px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.container td {
+    padding: 14px 12px;
+    border-bottom: 1px solid #e8edf5;
+    color: #334155;
+    font-size: 14px;
+}
+
+.container tbody tr {
+    transition: background 0.2s ease;
+}
+
+.container tbody tr:hover {
+    background: #eff6ff;
+}
+
+.container tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.container td a {
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    transition: 0.2s;
+}
+
+.container td a:first-child {
+    background: #2563eb;
+    color: white;
+}
+
+.container td a:first-child:hover {
+    background: #1d4ed8;
+}
+
+.container td a:last-child {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+.container td a:last-child:hover {
+    background: #dc2626;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .container {
+        overflow-x: auto;
+    }
+
+    .container table {
+        min-width: 750px;
+    }
+}
+
+
+.container .add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin: 0 0 20px auto;
+    padding: 12px 22px;
+    background: #287653;
+    color: white;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.container .add:hover {
+    background: #1d593e;
+    transform: translateY(-2px);
+}
+
+
+
+.register-form select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 11px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+    color: #333;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.register-form select:focus {
+    outline: none;
+    border-color: #287653;
+    box-shadow: 0 0 5px rgba(40, 118, 83, 0.25);
+}
+
+
+/* Action buttons */
+.container td form {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.container td .delete-btn {
+    display: inline-block;
+    width: auto;
+    padding: 7px 12px;
+    margin: 0;
+    background: #fee2e2;
+    color: #dc2626;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container td .delete-btn:hover {
+    background: #dc2626;
+    color: white;
+}
+
